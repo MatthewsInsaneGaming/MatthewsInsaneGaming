@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body {
+        height: calc(140vh - 10px);
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        border-top: 5px dotted red;
+        border-right: 5px dotted lightgreen;
+        border-left: 5px dotted lightblue;
+        border-bottom: 5px dotted purple;
+
+        background-image: url("https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg");
+      }
+
+      .logo {
+        position: absolute;
+        top: 350px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 300px;
+        border-radius: 50%;
+        border: 2px solid purple;
+        box-shadow: 0px 0px 20px 20px rgba(233, 210, 100, 0.8);
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      li {
+        color: white;
+        display: inline;
+        font-size: 30px;
+        padding: 10px;
+      }
+
+      h1 {
+        color: white;
+        text-align: center;
+        font-size: 35px;
+      }
+
+      .videos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      iframe {
+        border: 3px solid white;
+      }
+
+      .left {
+        margin-right: 675px;
+      }
+
+      .right {
+        margin-left: 675px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Matthew's Insane Gaming</h1>
+    <ul>
+      <a href="mig.html"><li>Home</li></a>
+      <a href="about.html"><li>About Us</li></a>
+      <a href="options.html"><li>Options</li></a>
+      <a href="contact.html"><li>Contact Us</li></a>
+    </ul>
+    <h1>About Us</h1>
+    <hr>
+    <h1>Creator: Matthew</h1>
+    <h1>Assistant: Eric G.</h1>
+    <div class="videos">
+      <iframe class="left" width="560" height="315" src="https://www.youtube.com/embed/c-CqEtAOT7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="right" width="560" height="315" src="https://www.youtube.com/embed/lsSxmFrNmig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="left" width="560" height="315" src="https://www.youtube.com/embed/xIMt9fp3svI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </body>
+</html>
